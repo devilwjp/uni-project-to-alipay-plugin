@@ -1,0 +1,8 @@
+<!--pages/aaa/aaa.wxml-->
+<text class="title">小程序预览页</text>
+<text class="title">请将相关地方的appid设置正确</text>
+<navigator url="plugin://hello-plugin/hello-page">
+    <button>跳转去插件页(将url地址调整正确)</button>
+</navigator>
+<hello-component aaa="111"/>
+<view>支付宝插件组件，只能纯展示，传属性，不能进行事件绑定</view>

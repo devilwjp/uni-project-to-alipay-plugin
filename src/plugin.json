@@ -1,0 +1,12 @@
+{
+	"publicComponents": {
+		"hello-component": "components/test"
+	},
+	"publicPages": {
+		"hello-page": "pages/index/index"
+	},
+	"pages": [
+		"pages/index/index"
+	],
+	"main": "common/main.js"
+}
